@@ -1,0 +1,72 @@
+.kin-selection-screen {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 2rem;
+  text-align: center;
+  background-color: #1a1a2e;
+  color: #e0e0e0;
+}
+
+.kin-selection-header {
+  margin-bottom: 3rem;
+}
+
+.kin-selection-header h1 {
+  font-size: 3rem;
+  margin-bottom: 0.5rem;
+  color: #e6e6e6;
+  text-shadow: 0 0 10px #ff4f7b, 0 0 20px #ff4f7b;
+}
+
+.kin-options {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.kin-option-card {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 15px;
+  padding: 2rem;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.kin-option-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2), 0 0 25px rgba(255, 79, 123, 0.5);
+}
+
+.kin-option-card h2 {
+  font-size: 1.75rem;
+  color: #ff4f7b;
+  margin-bottom: 1rem;
+}
+
+.kin-description {
+  font-style: italic;
+  color: #a9a9d4;
+  margin-bottom: 1.5rem;
+  flex-grow: 1;
+}
+
+.kin-details {
+  text-align: left;
+  margin-bottom: 2rem;
+  flex-grow: 1;
+}
+
+.kin-details p {
+  margin: 0.5rem 0;
+}
+
+.kin-option-card .btn {
+  margin-top: auto;
+}
