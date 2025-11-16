@@ -1,5 +1,6 @@
 {
   "name": "dungeon-draw-game",
+  "homepage": "https://pcravine.github.io/dungeon-draw-game",
   "private": true,
   "version": "0.0.0",
   "type": "module",
