@@ -1,4 +1,4 @@
-import { useReducer, useCallback, useEffect } from 'react';
+import { useReducer, useCallback } from 'react';
 import { GameState, GameAction, PlayerStats, Kin, Archetype } from '../types/game';
 import { generateDeck } from '../utils/cardGenerator';
 
