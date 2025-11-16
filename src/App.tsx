@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import { useEffect } from 'react';
 import { useGameState } from './hooks/useGameState';
 import { PlayerStats } from './components/PlayerStats';
 import { Card } from './components/Card';
@@ -136,7 +136,7 @@ function App() {
 
     return (
       <div className="card-area">
-        <Card card={state.currentCard} onResolve={handleCardAction} />
+        <Card card={state.currentCard} />
         {state.currentCard.type === 'altar' ? (
           <div className="choice-buttons">
             <button className="btn btn-primary" onClick={actions.prayAtAltar}>

@@ -3,10 +3,9 @@ import { Card as CardType } from '../types/game';
 
 interface CardProps {
   card: CardType;
-  onResolve: () => void;
 }
 
-export const Card: React.FC<CardProps> = ({ card, onResolve }) => {
+export const Card: React.FC<CardProps> = ({ card }) => {
   const getCardClass = () => {
     switch (card.type) {
       case 'monster':
